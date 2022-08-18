@@ -5,11 +5,11 @@ Steps to Contribute to this project
 
 After this operation the URL of the project will change to:
 
-https://github.com/<yourusername>/projectname
+https://github.com/yourusername/projectname
 
 2. Clone the project into your local machine In order for you to perform this step, you must have Git installed locally in your machine. If you don't, refer to the official Git docs on how to get started. Copy the forked project URL, and proceed to your local machine where you will open git bash, and proceed with the command below:
 
-git clone https://github.com/<yourusername>/<projectname> This will create a copy of the project on your local machine. Now that you have cloned the repo we will need to do two things:
+git clone https://github.com/yourusername/projectname This will create a copy of the project on your local machine. Now that you have cloned the repo we will need to do two things:
 
 First is to make the necessary changes/contribution and commit those changes. After making your changes and adding new files, its time to add those changes into a separate branch before pushing them to remote.
 
@@ -28,6 +28,7 @@ git status The command will list all the changes you made. To add them we will u
 
 5. git commit -m "<message here>" 
    Push changes to remote Now that everything is set, it's time to let our maintainer know what we have added. That is made possible by pushing the changes with this command:
+
 6.git push origin <add-your-branch-name>
 	replacing <add-your-branch-name> with the name of the branch you 	created earlier, in my case it will be git push origin davidmadei.
    
